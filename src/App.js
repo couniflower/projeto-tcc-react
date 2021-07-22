@@ -1,6 +1,6 @@
 /* teste de*/
 
-import logo from './logo.svg';
+import logo from './Lolbit_UCN.png';
 import './App.css';
 
 function App() {
@@ -9,16 +9,21 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* <div align="center" class="menu"> */}
+              <ul>
+                <li><a href="">cadastre-se</a></li>
+                <li><a href="">login</a></li>
+              </ul>
+          {/* Edit <code>src/App.js</code> and save to reload. */}
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
